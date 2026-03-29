@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV | Emir-Idris Akcay</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="bg-grid"></div>
+  <div class="bg-glow"></div>
+  <div class="bg-glow-2"></div>
+  <div class="scanline"></div>
+
+  <nav class="navbar" id="navbar">
+    <a href="index.html" class="nav-logo">emir<span>.dev</span></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Me</a></li>
+      <li><a href="projects.html">Projects</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <main class="main-content">
+    <section class="section container">
+      <div class="section-header fade-in">
+        <p class="section-tag">curriculum_vitae</p>
+        <h1 class="section-title">Emir-Idris Akcay</h1>
+        <p style="color: var(--text-secondary); margin-top: 0.5rem;">IT Student | Mol, Belgium</p>
+      </div>
+
+      <div style="margin-bottom: 2rem;" class="fade-in">
+        <a href="assets/CV_Emir-Idris_Akcay.pdf" download class="btn btn-primary">&#11015; Download CV as PDF</a>
+      </div>
+
+      <div class="cv-page">
+
+        <!-- Profile -->
+        <div class="cv-section fade-in">
+          <h2>&#128100; Profile</h2>
+          <p style="color: var(--text-secondary); max-width: 700px; line-height: 1.8;">
+            I'm an IT student with a passion for creating tech solutions. I love learning 
+            about software, data, and new technologies to solve real-world problems and 
+            create a more connected world.
+          </p>
+        </div>
+
+        <!-- Education -->
+        <div class="cv-section fade-in">
+          <h2>&#127891; Education</h2>
+          <div class="cv-item">
+            <span class="cv-date">2024 — 2027</span>
+            <div>
+              <h3>Bachelor of Computer Science</h3>
+              <p class="cv-org">Thomas More Geel</p>
+              <p>Applied Computer Science — Cloud & Cyber Security</p>
+            </div>
+          </div>
+          <div class="cv-item">
+            <span class="cv-date">2022 — 2024</span>
+            <div>
+              <h3>Applied Computer Science</h3>
+              <p class="cv-org">Campus Sint-Jan Berchmanscollege</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Work Experience -->
+        <div class="cv-section fade-in">
+          <h2>&#128188; Work Experience</h2>
+          <div class="cv-item">
+            <span class="cv-date">2023 — 2024</span>
+            <div>
+              <h3>AGF Employee</h3>
+              <p class="cv-org">Albert Heijn Mol</p>
+              <ul>
+                <li>Working with fruits and vegetables</li>
+                <li>Also worked at the warehouse of Albert Heijn</li>
+              </ul>
+            </div>
+          </div>
+          <div class="cv-item">
+            <span class="cv-date">2019 — 2020</span>
+            <div>
+              <h3>Worker (Student Job)</h3>
+              <p class="cv-org">Royal Chocolates</p>
+              <ul>
+                <li>Worked as a student in production</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- IT Knowledge -->
+        <div class="cv-section fade-in">
+          <h2>&#128187; IT Knowledge</h2>
+          <div class="cv-item">
+            <span class="cv-date">Web</span>
+            <div><p>HTML, CSS, JavaScript</p></div>
+          </div>
+          <div class="cv-item">
+            <span class="cv-date">Programming</span>
+            <div><p>Python, C#, Java</p></div>
+          </div>
+          <div class="cv-item">
+            <span class="cv-date">Data</span>
+            <div><p>MySQL, PostgreSQL, StarUML</p></div>
+          </div>
+          <div class="cv-item">
+            <span class="cv-date">Infrastructure</span>
+            <div><p>TrueNAS, Docker, Cloudflare, Netbird, Networking, Hardware</p></div>
+          </div>
+          <div class="cv-item">
+            <span class="cv-date">Design</span>
+            <div><p>Adobe Photoshop, Blender</p></div>
+          </div>
+        </div>
+
+        <!-- Languages -->
+        <div class="cv-section fade-in">
+          <h2>&#127760; Languages</h2>
+          <div class="cv-item">
+            <span class="cv-date">Native</span>
+            <div><p>Dutch, Turkish</p></div>
+          </div>
+          <div class="cv-item">
+            <span class="cv-date">Fluent</span>
+            <div><p>English</p></div>
+          </div>
+          <div class="cv-item">
+            <span class="cv-date">Basic</span>
+            <div><p>French</p></div>
+          </div>
+        </div>
+
+        <!-- Contact -->
+        <div class="cv-section fade-in">
+          <h2>&#128233; Contact</h2>
+          <div class="cv-item">
+            <span class="cv-date">Phone</span>
+            <div><p>+32 77 03 18 83</p></div>
+          </div>
+          <div class="cv-item">
+            <span class="cv-date">Email</span>
+            <div><p><a href="mailto:emir.idris.akcay@icloud.com">emir.idris.akcay@icloud.com</a></p></div>
+          </div>
+          <div class="cv-item">
+            <span class="cv-date">Address</span>
+            <div><p>Guido Gezellestraat 35, Mol, Belgium</p></div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 Emir-Idris Akcay. Built with passion & caffeine.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

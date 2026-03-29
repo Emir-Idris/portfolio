@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emir-Idris Akcay | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Background Effects -->
+  <div class="bg-grid"></div>
+  <div class="bg-glow"></div>
+  <div class="bg-glow-2"></div>
+  <div class="scanline"></div>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <a href="index.html" class="nav-logo">emir<span>.dev</span></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="about.html">About Me</a></li>
+      <li><a href="projects.html">Projects</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="main-content">
+    <section class="hero">
+      <div class="hero-content container">
+        <p class="hero-tag">welcome_to_my_portfolio</p>
+        <h1 class="hero-title">
+          Hi, I'm <span class="highlight">Emir-Idris</span>
+        </h1>
+        <p class="hero-subtitle">
+          IT student at Thomas More Geel with a passion for building tech solutions. 
+          From self-hosted servers to AI-powered automations — I love turning ideas into 
+          real, working systems.<span class="cursor"></span>
+        </p>
+        <div class="hero-buttons">
+          <a href="about.html" class="btn btn-primary">&#9654; About Me</a>
+          <a href="projects.html" class="btn btn-ghost">&#128193; View Projects</a>
+        </div>
+      </div>
+      <div class="scroll-indicator">
+        <div class="line"></div>
+        SCROLL
+      </div>
+    </section>
+
+    <!-- Quick Info Cards -->
+    <section class="section container">
+      <div class="cards-grid">
+        <div class="card fade-in">
+          <div class="card-icon">&#128421;</div>
+          <h3>Homelab Enthusiast</h3>
+          <p>Running a TrueNAS server with Docker containers, AI-powered deal scanning, and a full media server setup with Emby.</p>
+        </div>
+        <div class="card fade-in">
+          <div class="card-icon">&#128272;</div>
+          <h3>Cloud & Cyber Security</h3>
+          <p>Studying Applied Computer Science at Thomas More Geel, with a focus on cloud infrastructure and security.</p>
+        </div>
+        <div class="card fade-in">
+          <div class="card-icon">&#127919;</div>
+          <h3>Ambitious & Driven</h3>
+          <p>Working towards starting my own tech business, applying what I learn in school directly to real-world projects.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 Emir-Idris Akcay. Built with passion & caffeine.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

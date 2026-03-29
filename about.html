@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me | Emir-Idris Akcay</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="bg-grid"></div>
+  <div class="bg-glow"></div>
+  <div class="bg-glow-2"></div>
+  <div class="scanline"></div>
+
+  <nav class="navbar" id="navbar">
+    <a href="index.html" class="nav-logo">emir<span>.dev</span></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html" class="active">About Me</a></li>
+      <li><a href="projects.html">Projects</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <main class="main-content">
+
+    <!-- About Intro -->
+    <section class="section container">
+      <div class="section-header fade-in">
+        <p class="section-tag">get_to_know_me</p>
+        <h1 class="section-title">About Me</h1>
+      </div>
+
+      <div class="about-intro fade-in">
+        <div class="about-photo-wrapper">
+          <!-- VERVANG dit met je eigen foto: zet je foto in de assets map als "profile.jpg" -->
+          <img src="assets/profile.png" alt="Emir-Idris Akcay" class="about-photo">
+        </div>
+        <div class="about-text">
+          <h2>Emir-Idris Akcay</h2>
+          <p class="role">> IT Student &amp; Homelab Builder</p>
+          <p>
+            I'm an IT student at Thomas More Geel pursuing a Bachelor of Computer Science 
+            with a focus on Cloud & Cyber Security. I'm passionate about building real tech 
+            solutions — from self-hosted servers to AI-powered automations that run in my 
+            daily life.
+          </p>
+          <p>
+            What drives me is the satisfaction of turning an idea into a working system. 
+            Whether it's a deal-scanning bot that uses Claude's API to evaluate offers and 
+            sends results to my Telegram every 30 minutes, or a full media server running 
+            Emby Premium connected to my TV — I'm always building something new.
+          </p>
+
+          <div class="about-details">
+            <div class="about-detail">
+              <span class="label">Location:</span>
+              <span class="value">Mol, Belgium</span>
+            </div>
+            <div class="about-detail">
+              <span class="label">Study:</span>
+              <span class="value">Thomas More Geel Cloud & Cyber Security</span>
+            </div>
+            <div class="about-detail">
+              <span class="label">Email:</span>
+              <span class="value">emir.idris.akcay@icloud.com</span>
+            </div>
+            <div class="about-detail">
+              <span class="label">Languages:</span>
+              <span class="value">Dutch, French, English, Turkish</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Cloud & Cyber Security -->
+    <section class="section container">
+      <div class="section-header fade-in">
+        <p class="section-tag">my_motivation</p>
+        <h2 class="section-title">Why Cloud & Cyber Security?</h2>
+      </div>
+      <div class="card fade-in" style="max-width: 800px;">
+        <p>
+          It all started with my home server. What began as a simple experiment quickly turned 
+          into a daily obsession — configuring Docker containers, setting up networking with 
+          Netbird, managing services through Cloudflare, and constantly finding new things 
+          to automate and improve.
+        </p>
+        <br>
+        <p>
+          I realized that what I was doing at home was exactly what professionals do in cloud 
+          infrastructure and cybersecurity. The more I learned at school, the more I could 
+          apply to my own server. And the more I tinkered at home, the better I understood 
+          what we covered in class. That feedback loop is what made me certain: this is what I 
+          want to do.
+        </p>
+      </div>
+    </section>
+
+    <!-- Hobbies -->
+    <section class="section container">
+      <div class="section-header fade-in">
+        <p class="section-tag">beyond_the_code</p>
+        <h2 class="section-title">Hobbies & Interests</h2>
+      </div>
+      <div class="cards-grid">
+        <div class="card fade-in">
+          <div class="card-icon">&#128421;</div>
+          <h3>Homelab & Self-Hosting</h3>
+          <p>
+            I run a TrueNAS server at home with multiple Docker containers. I built an 
+            AI-powered deal scanner that uses the Claude API to evaluate offers and sends 
+            the best deals to my Telegram every 30 minutes. I also run an Emby Premium 
+            media server connected to my TV for streaming.
+          </p>
+        </div>
+        <div class="card fade-in">
+          <div class="card-icon">&#128170;</div>
+          <h3>Fitness</h3>
+          <p>
+            I'm committed to staying active and pushing my physical limits. Fitness gives 
+            me the discipline and energy I need to stay sharp both mentally and physically — 
+            a strong body supports a strong mind.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Future Dreams -->
+    <section class="section container">
+      <div class="section-header fade-in">
+        <p class="section-tag">looking_ahead</p>
+        <h2 class="section-title">Future Dreams & Ambitions</h2>
+      </div>
+      <div class="card fade-in" style="max-width: 800px;">
+        <p>
+          My biggest dream is to start my own business in tech — something I'm already 
+          actively exploring and preparing for. I want to build solutions that make a 
+          real impact, combining my knowledge of cloud infrastructure, automation, and AI.
+        </p>
+        <br>
+        <p>
+          If that path doesn't work out, I've always had a strong interest in law enforcement 
+          and cybercrime investigation. The idea of combining my IT skills with police work — 
+          tracking down cybercriminals and protecting people online — is something that truly 
+          excites me.
+        </p>
+      </div>
+    </section>
+
+    <!-- Technical Skills -->
+    <section class="section container">
+      <div class="section-header fade-in">
+        <p class="section-tag">tech_stack</p>
+        <h2 class="section-title">Technical Skills</h2>
+      </div>
+      <div class="skills-section fade-in">
+        <div class="skills-category">
+          <h3>Infrastructure & DevOps</h3>
+          <div class="skills-tags">
+            <span class="skill-tag highlight">TrueNAS</span>
+            <span class="skill-tag highlight">Docker</span>
+            <span class="skill-tag">Cloudflare</span>
+            <span class="skill-tag">Netbird</span>
+            <span class="skill-tag">Web Servers</span>
+            <span class="skill-tag">Networking</span>
+            <span class="skill-tag">Hardware</span>
+          </div>
+        </div>
+        <div class="skills-category">
+          <h3>Programming</h3>
+          <div class="skills-tags">
+            <span class="skill-tag highlight">Python</span>
+            <span class="skill-tag highlight">JavaScript</span>
+            <span class="skill-tag">C#</span>
+            <span class="skill-tag">Java</span>
+            <span class="skill-tag">HTML / CSS</span>
+          </div>
+        </div>
+        <div class="skills-category">
+          <h3>Data & Databases</h3>
+          <div class="skills-tags">
+            <span class="skill-tag">MySQL</span>
+            <span class="skill-tag">PostgreSQL</span>
+            <span class="skill-tag">StarUML</span>
+          </div>
+        </div>
+        <div class="skills-category">
+          <h3>Design & Tools</h3>
+          <div class="skills-tags">
+            <span class="skill-tag">Adobe Photoshop</span>
+            <span class="skill-tag">Blender</span>
+            <span class="skill-tag">Office 365</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Soft Skills -->
+    <section class="section container">
+      <div class="section-header fade-in">
+        <p class="section-tag">soft_skills</p>
+        <h2 class="section-title">Soft Skills</h2>
+      </div>
+      <div class="soft-skills-grid fade-in">
+        <div class="soft-skill-card">
+          <div class="icon">&#129504;</div>
+          <h4>Problem Solving</h4>
+          <p>Breaking down complex challenges into workable solutions</p>
+        </div>
+        <div class="soft-skill-card">
+          <div class="icon">&#129309;</div>
+          <h4>Teamwork</h4>
+          <p>Collaborating effectively to achieve shared goals</p>
+        </div>
+        <div class="soft-skill-card">
+          <div class="icon">&#128218;</div>
+          <h4>Self-Learning</h4>
+          <p>Constantly teaching myself new technologies and skills</p>
+        </div>
+        <div class="soft-skill-card">
+          <div class="icon">&#128640;</div>
+          <h4>Adaptability</h4>
+          <p>Quick to adjust and thrive in changing environments</p>
+        </div>
+        <div class="soft-skill-card">
+          <div class="icon">&#127793;</div>
+          <h4>Initiative</h4>
+          <p>Proactively starting projects and finding improvements</p>
+        </div>
+        <div class="soft-skill-card">
+          <div class="icon">&#128172;</div>
+          <h4>Communication</h4>
+          <p>Explaining technical concepts clearly to any audience</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CV Banner -->
+    <section class="section container">
+      <div class="cv-banner fade-in">
+        <div class="cv-banner-text">
+          <h3>Want to see my full CV?</h3>
+          <p>View it online or download a PDF copy.</p>
+        </div>
+        <div class="cv-banner-actions">
+          <a href="cv.html" class="btn btn-primary">&#128196; View CV</a>
+          <a href="assets/CV_Emir-Idris_Akcay.pdf" download class="btn btn-ghost">&#11015; Download PDF</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 Emir-Idris Akcay. Built with passion & caffeine.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
