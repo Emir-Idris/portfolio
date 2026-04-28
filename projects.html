@@ -11,6 +11,7 @@
   <div class="bg-grid"></div>
   <div class="bg-glow"></div>
   <div class="bg-glow-2"></div>
+  <div class="bg-glow-3"></div>
   <div class="scanline"></div>
 
   <nav class="navbar" id="navbar">
@@ -29,17 +30,283 @@
     <section class="section container">
       <div class="section-header fade-in">
         <p class="section-tag">my_work</p>
-        <h1 class="section-title">Projects</h1>
+        <h1 class="section-title">Projects & Achievements</h1>
       </div>
 
-      <div class="empty-state fade-in">
-        <div class="icon">&#128679;</div>
-        <h2>Coming Soon</h2>
-        <p>
-          I'm currently working on documenting my projects. 
-          Check back soon to see what I've been building!
-        </p>
-      </div>
+      <!-- ============================================ -->
+      <!-- PROJECT 1: SKIL2 Semester 1 — JMA2 -->
+      <!-- ============================================ -->
+      <article class="project-card fade-in">
+        <div class="project-card-inner">
+          <div class="project-header">
+            <div>
+              <h2>JMA2 — IT Infrastructure Dashboard</h2>
+              <p class="project-subtitle">SKIL2 &middot; Semester 1 &middot; Group Project</p>
+            </div>
+            <div class="project-badges">
+              <span class="project-badge badge-required">Required</span>
+              <span class="project-badge badge-group">Group</span>
+            </div>
+          </div>
+
+          <p class="project-description">
+            A full-stack web application built for an IT infrastructure management course (SKIL2). 
+            The project involved creating a dashboard to monitor and manage hardware assets, 
+            with a system overview, hardware management features, and a RESTful API backend. 
+            The application simulates real-time data visualization for infrastructure monitoring.
+          </p>
+
+          <div class="project-tech-stack">
+            <span class="tech-tag">HTML</span>
+            <span class="tech-tag">CSS</span>
+            <span class="tech-tag">JavaScript</span>
+            <span class="tech-tag">REST API</span>
+            <span class="tech-tag">JSON</span>
+          </div>
+
+          <div class="project-contribution">
+            <h4>&#9654; My Contribution</h4>
+            <div class="contribution-list">
+              <div class="contribution-item">
+                <span class="check">&#10003;</span>
+                <span>Built the majority of the frontend — designed and developed the main dashboard interface</span>
+              </div>
+              <div class="contribution-item">
+                <span class="check">&#10003;</span>
+                <span>Completely reworked the "Add Hardware" feature — rebuilt it from scratch to function properly</span>
+              </div>
+              <div class="contribution-item">
+                <span class="check">&#10003;</span>
+                <span>Fixed the System Overview by improving the underlying data flow after the hardware rework</span>
+              </div>
+              <div class="contribution-item">
+                <span class="check">&#10003;</span>
+                <span>Created all mock data to simulate how the dashboard would look with real-time infrastructure data</span>
+              </div>
+              <div class="contribution-item">
+                <span class="check">&#10003;</span>
+                <span>Developed the majority of the REST API — later refined by a team member</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-skills-learned">
+            <h4>&#127891; What I Learned</h4>
+            <div class="learned-grid">
+              <span class="learned-tag-hard">Frontend Development</span>
+              <span class="learned-tag-hard">REST API Design</span>
+              <span class="learned-tag-hard">Data Visualization</span>
+              <span class="learned-tag-hard">Debugging & Refactoring</span>
+              <span class="learned-tag-soft">Teamwork</span>
+              <span class="learned-tag-soft">Taking Ownership</span>
+              <span class="learned-tag-soft">Problem Solving</span>
+            </div>
+          </div>
+
+          <div class="project-links">
+            <a href="https://github.com/sebeeckhout/JMA2" target="_blank" class="project-link">&#128279; GitHub Repository</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- ============================================ -->
+      <!-- PROJECT 2: SKIL2 Semester 2 — Kubernetes Hosting -->
+      <!-- ============================================ -->
+      <article class="project-card fade-in">
+        <div class="project-card-inner">
+          <div class="project-header">
+            <div>
+              <h2>Kubernetes Hosting Platform</h2>
+              <p class="project-subtitle">SKIL2 &middot; Semester 2 &middot; Group Project &middot; In Progress</p>
+            </div>
+            <div class="project-badges">
+              <span class="project-badge badge-required">Required</span>
+              <span class="project-badge badge-group">Group</span>
+            </div>
+          </div>
+
+          <p class="project-description">
+            A shared hosting platform built on Kubernetes (K3s), running on a Proxmox server. 
+            The project involves designing a full cloud infrastructure with storage provisioning 
+            (Longhorn), networking (OPNsense), observability (Loki/Prometheus), and a client-facing 
+            web interface for managing hosted services. This project is currently still in progress.
+          </p>
+
+          <div class="project-tech-stack">
+            <span class="tech-tag">Kubernetes (K3s)</span>
+            <span class="tech-tag">Proxmox</span>
+            <span class="tech-tag">Longhorn</span>
+            <span class="tech-tag">OPNsense</span>
+            <span class="tech-tag">ZFS</span>
+            <span class="tech-tag">Docker</span>
+            <span class="tech-tag">Loki</span>
+            <span class="tech-tag">Prometheus</span>
+          </div>
+
+          <div class="project-contribution">
+            <h4>&#9654; My Contribution</h4>
+            <div class="contribution-list">
+              <div class="contribution-item">
+                <span class="check">&#10003;</span>
+                <span>Worked on the client-facing hosting website where users can manage their hosted services</span>
+              </div>
+              <div class="contribution-item">
+                <span class="check">&#10003;</span>
+                <span>Designed the storage architecture diagram for the ZFS and Longhorn setup</span>
+              </div>
+              <div class="contribution-item">
+                <span class="check">&#10003;</span>
+                <span>Contributed to the project documentation and technical rapport</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-skills-learned">
+            <h4>&#127891; What I Learned</h4>
+            <div class="learned-grid">
+              <span class="learned-tag-hard">Kubernetes</span>
+              <span class="learned-tag-hard">Storage Architecture</span>
+              <span class="learned-tag-hard">Infrastructure Design</span>
+              <span class="learned-tag-hard">Technical Documentation</span>
+              <span class="learned-tag-soft">Project Management</span>
+              <span class="learned-tag-soft">Communication</span>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- ============================================ -->
+      <!-- PROJECT 3: Home Server -->
+      <!-- ============================================ -->
+      <article class="project-card fade-in">
+        <div class="project-card-inner">
+          <div class="project-header">
+            <div>
+              <h2>Self-Hosted Home Server</h2>
+              <p class="project-subtitle">Personal Project &middot; Ongoing</p>
+            </div>
+            <div class="project-badges">
+              <span class="project-badge badge-personal">Personal</span>
+            </div>
+          </div>
+
+          <p class="project-description">
+            A personal home server running TrueNAS with multiple Docker containers powering 
+            various self-hosted services. This is an ongoing project where I continuously add 
+            new services, optimize configurations, and learn about server management in a 
+            real-world environment.
+          </p>
+
+          <div class="project-tech-stack">
+            <span class="tech-tag">TrueNAS</span>
+            <span class="tech-tag">Docker</span>
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">Claude API</span>
+            <span class="tech-tag">Emby</span>
+            <span class="tech-tag">Nextcloud</span>
+            <span class="tech-tag">Telegram API</span>
+            <span class="tech-tag">Arr Stack</span>
+          </div>
+
+          <div class="project-contribution">
+            <h4>&#9654; What's Running</h4>
+            <div class="contribution-list">
+              <div class="contribution-item">
+                <span class="check">&#10003;</span>
+                <span><strong>AI Deal Scanner</strong> — A Python script that scans 2dehands.be for deals (cars, electronics), uses the Claude API to evaluate if they're genuinely good deals, and sends results to Telegram every 30 minutes</span>
+              </div>
+              <div class="contribution-item">
+                <span class="check">&#10003;</span>
+                <span><strong>Emby Media Server</strong> — Full media server with Emby Premium, connected to my TV with the Arr stack (Sonarr, Radarr, Prowlarr) for automated media management</span>
+              </div>
+              <div class="contribution-item">
+                <span class="check">&#10003;</span>
+                <span><strong>Nextcloud</strong> — Self-hosted cloud storage for personal files, synced across all my devices</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-skills-learned">
+            <h4>&#127891; What I Learned</h4>
+            <div class="learned-grid">
+              <span class="learned-tag-hard">Linux Server Administration</span>
+              <span class="learned-tag-hard">Docker Containers</span>
+              <span class="learned-tag-hard">API Integration</span>
+              <span class="learned-tag-hard">Python Scripting</span>
+              <span class="learned-tag-hard">Networking</span>
+              <span class="learned-tag-soft">Self-Learning</span>
+              <span class="learned-tag-soft">Persistence</span>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- ============================================ -->
+      <!-- PROJECT 4: Indurate Fitness -->
+      <!-- ============================================ -->
+      <article class="project-card fade-in">
+        <div class="project-card-inner">
+          <div class="project-header">
+            <div>
+              <h2>Indurate Fitness</h2>
+              <p class="project-subtitle">6th Year Secondary School &middot; Mobile App</p>
+            </div>
+            <div class="project-badges">
+              <span class="project-badge badge-school">School</span>
+              <span class="project-badge badge-group">Group</span>
+            </div>
+          </div>
+
+          <p class="project-description">
+            A fitness and social media mobile app built together with a classmate during my 6th year 
+            of secondary school at Campus Sint-Jan Berchmanscollege. Indurate Fitness served as a 
+            platform for scheduling workouts, tracking fitness routines, and socializing. The app was 
+            published on the App Store but has since been removed.
+          </p>
+
+          <div class="project-tech-stack">
+            <span class="tech-tag">Mobile Development</span>
+            <span class="tech-tag">UI/UX Design</span>
+            <span class="tech-tag">Calendar System</span>
+            <span class="tech-tag">App Store</span>
+          </div>
+
+          <div class="project-contribution">
+            <h4>&#9654; My Contribution</h4>
+            <div class="contribution-list">
+              <div class="contribution-item">
+                <span class="check">&#10003;</span>
+                <span>Built the complete calendar feature — workout scheduling, routine planning, and date management</span>
+              </div>
+              <div class="contribution-item">
+                <span class="check">&#10003;</span>
+                <span>Contributed to the overall UI/UX design of the app</span>
+              </div>
+              <div class="contribution-item">
+                <span class="check">&#10003;</span>
+                <span>Helped create and organize the exercise database within the app</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-skills-learned">
+            <h4>&#127891; What I Learned</h4>
+            <div class="learned-grid">
+              <span class="learned-tag-hard">Mobile App Development</span>
+              <span class="learned-tag-hard">UI/UX Design</span>
+              <span class="learned-tag-hard">App Store Publishing</span>
+              <span class="learned-tag-soft">Collaboration</span>
+              <span class="learned-tag-soft">Product Thinking</span>
+            </div>
+          </div>
+
+          <div class="project-links">
+            <a href="https://www.instagram.com/indurate.fitness/" target="_blank" class="project-link">&#128247; Instagram</a>
+            <a href="https://indurate-fitness.com/" target="_blank" class="project-link">&#127760; Website</a>
+          </div>
+        </div>
+      </article>
+
     </section>
   </main>
 
